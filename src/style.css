@@ -1,0 +1,47 @@
+html,body{
+    background-color: rgb(19, 19, 19);
+    user-select: none;
+}
+#header{
+    color:rgb(13, 245, 13);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-color:rgb(13, 245, 13) ;
+    border-style: solid;
+}
+#dice{
+    height: 50px;
+    width: auto;
+}
+#saida{
+    color:rgb(13, 245, 13);
+}
+#footer{
+    color:rgb(13, 245, 13);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#footer:hover{
+    transform: scale(1.1);
+}
+#play-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+#play{
+    height: 300px;
+    width: auto;
+    transition: transform 0.3s;
+}
+#play:hover{
+    transform: scale(1.1);
+}

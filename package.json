@@ -1,0 +1,23 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaaF-Eng/Terminal-RPG.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FaaF-Eng/Terminal-RPG/issues"
+  },
+  "homepage": "https://github.com/FaaF-Eng/Terminal-RPG#readme",
+  "description": ""
+}
