@@ -62,3 +62,11 @@ html,body{
     font-size: 50px;
     color:rgb(13, 245, 13);
 }
+.st{ 
+    transition: transform 0.3s;
+    z-index: 10;
+}
+.st:hover{
+    z-index: 10;
+    transform: scale(1.1);
+}

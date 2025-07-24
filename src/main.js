@@ -4,14 +4,17 @@ const play = document.querySelector('#play');
 
 
 //a
-function playSound(){
+function playSoundAndNavegate(){
     const audio = new Audio("./public/sounds/play_sound.wav");
     audio.play();
-      setTimeout(() => {
+    setTimeout(() => {
     window.location.assign("./src/page2/pagina2.html");
   }, 1000); // espera 1s
-  
-   
+}
+
+function playSound(){
+    const audio2 = new Audio("./public/sounds/select.mp3");
+    audio2.play();
 }
 
 function escreverDevagar(texto,intervalo =100){
