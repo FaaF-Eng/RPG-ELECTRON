@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="public/screen.jpg" alt="imagem tela do jogo">
+<img src="./public/screen.jpg" alt="imagem tela do jogo">
 
 > Jogue um RPG com aventura interativa e com responsividade dinâmica! Esse software cria uma experiência única com JavaScript e Electron.JS
 
