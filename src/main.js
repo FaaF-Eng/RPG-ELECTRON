@@ -1,9 +1,10 @@
 //Aqui rodará o código JavaScript da aplicação.
  
-const play = document.querySelector('#play');
+// const play = document.querySelector('#play');
+// const seta1 = document.querySelector('#seta1');
+// const seta2 = document.querySelector('#seta2');
 
-
-//a
+//Som + navegação incial 
 function playSoundAndNavegate(){
     const audio = new Audio("./public/sounds/play_sound.wav");
     audio.play();
@@ -12,8 +13,9 @@ function playSoundAndNavegate(){
   }, 1000); // espera 1s
 }
 
+//Som das setinhas da página 2
 function playSound(){
-    const audio2 = new Audio("./public/sounds/select.mp3");
+    const audio2 = new Audio("../../public/sounds/select.mp3");
     audio2.play();
 }
 
