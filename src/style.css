@@ -1,13 +1,13 @@
 html,body{
-    background-color: rgb(19, 19, 19);
+    background-color: #0f380f;
     user-select: none;
 }
 #header{
-    color:rgb(13, 245, 13);
+    color:#8bac0f;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-color:rgb(13, 245, 13) ;
+    color: #9bbc0f;
     border-style: solid;
 }
 #dice{
@@ -15,10 +15,10 @@ html,body{
     width: auto;
 }
 #saida{
-    color:rgb(13, 245, 13);
+    color: #9bbc0f;
 }
 #footer{
-    color:rgb(13, 245, 13);
+    color:#8bac0f;
     bottom: 0;
     position: fixed;
     width: 100%;

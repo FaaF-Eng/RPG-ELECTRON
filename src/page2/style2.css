@@ -1,13 +1,13 @@
 html,body{
-    background-color: rgb(19, 19, 19);
+    background-color: #0f380f;
     user-select: none;
 }
 #header{
-    color:rgb(13, 245, 13);
+    color:#8bac0f;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-color:rgb(13, 245, 13) ;
+    color: #9bbc0f;
     border-style: solid;
 }
 #dice{
@@ -15,10 +15,10 @@ html,body{
     width: auto;
 }
 #saida{
-    color:rgb(13, 245, 13);
+    color: #9bbc0f;
 }
 #footer{
-    color:rgb(13, 245, 13);
+    color:#8bac0f;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -53,14 +53,14 @@ html,body{
     transform: scale(1.1);
 }
 #setas{
-    gap: 300px;
+    gap: 30px;
     margin-top: 150px;
     text-align: center;
     justify-content: center;
     display:flex;
     flex-direction: row;
     font-size: 50px;
-    color:rgb(13, 245, 13);
+    color: #9bbc0f;
 }
 .st{ 
     transition: transform 0.3s;
@@ -69,4 +69,10 @@ html,body{
 .st:hover{
     z-index: 10;
     transform: scale(1.1);
+}
+
+#knight{
+    height: 60px;
+    border-style: solid;
+    border-color: #9bbc0f;
 }
