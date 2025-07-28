@@ -42,11 +42,13 @@ html,body{
     
 }
 #play{
-
+    position: relative;
     height: 300px;
     width: auto;
     transition: transform 0.3s;
-    margin-top: 300px;
+    bottom: 0;
+    margin-top: 100px;
+  
     
 }
 #play:hover{
@@ -71,8 +73,8 @@ html,body{
     transform: scale(1.1);
 }
 
-#knight{
-    height: 60px;
+#avatar{
+    height: 100px;
     border-style: solid;
     border-color: #9bbc0f;
 }

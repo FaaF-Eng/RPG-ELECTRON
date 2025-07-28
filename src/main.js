@@ -4,6 +4,10 @@
 // const seta1 = document.querySelector('#seta1');
 // const seta2 = document.querySelector('#seta2');
 
+
+
+
+
 //Som + navegação incial 
 function playSoundAndNavegate(){
     const audio = new Audio("./public/sounds/play_sound.wav");

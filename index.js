@@ -6,6 +6,8 @@ app.on('ready',() => {
     mainWindow = new BrowserWindow({
         //Propriedades
         resizable: true,
+        width: 700,
+        height: 700,
         
     });
 
