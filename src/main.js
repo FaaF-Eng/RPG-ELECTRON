@@ -7,7 +7,7 @@
 
 
 
-
+// [ TELA INICIAL ]
 //Som + navegação incial 
 function playSoundAndNavegate(){
     const audio = new Audio("./public/sounds/play_sound.wav");
@@ -17,11 +17,35 @@ function playSoundAndNavegate(){
   }, 1000); // espera 1s
 }
 
-//Som das setinhas da página 2
-function playSound(){
-    const audio2 = new Audio("../../public/sounds/select.mp3");
-    audio2.play();
+// [ PAGINA 2 ]
+//Som das setinhas da página 2 + seleção de personagens
+function playSoundAndNavegate2(){
+    const audio3 = new Audio("../../public/sounds/select.mp3");
+    audio3.play();
+    setTimeout(() => {
+    window.location.assign("../../src/page3/pagina3.html");
+  }, 1000); // espera 1s
 }
+// botão play para iniciar o jogo
+function StartGame(){
+    const audio5 = new Audio("../../public/sounds/play_sound.wav");
+    audio5.play();
+    setTimeout(() => {
+    window.location.assign("../../src/page4/pagina4.html");
+  }, 1000); // espera 1s
+}
+
+
+// [ PAGINA 3 ]
+//Som das setinhas da página 3 + seleção de personagens
+function playSoundAndNavegate3(){
+    const audio4 = new Audio("../../public/sounds/select.mp3");
+    audio4.play();
+    setTimeout(() => {
+    window.location.assign("../../src/page2/pagina2.html");
+  }, 1000); // espera 1s
+}
+
 
 function escreverDevagar(texto,intervalo =100){
 let i = 0;
@@ -35,4 +59,4 @@ const timer = setInterval(() => {
 }, intervalo);  
 };
 
-//escreverDevagar("texto devagar",100);
+//escreverDevagar("BATATA",100);
