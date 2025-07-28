@@ -60,3 +60,4 @@ const timer = setInterval(() => {
 };
 
 //escreverDevagar("BATATA",100);
+
