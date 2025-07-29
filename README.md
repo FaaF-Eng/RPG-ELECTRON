@@ -1,4 +1,4 @@
-# RPG DE TERMINAL - FRONTEND + ELECTRON.JS
+# TERMINAL RPG - FRONTEND + ELECTRON.JS
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -8,30 +8,30 @@
 
 <img src="./public/screen.jpg" alt="imagem tela do jogo">
 
-> Jogue um RPG com aventura interativa e com responsividade dinâmica! Esse software cria uma experiência única com JavaScript e Electron.JS
+> Play an interactive, dynamically responsive RPG adventure! This software creates a unique experience with JavaScript and Electron.JS
 
-Link do projeto: [Em desenvolvimento]
+Project link: [In development]
 
-### Ajustes e melhorias
+### Adjustments and improvements
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
+The project is still under development and the next updates will focus on the following tasks:
 
-- [x] Tarefa 1 - Implementar framework Electron.JS para melhor experiência do jogo
-- [x] Tarefa 2 - Implementar framework do Bootstrap para melhor reponsividade do código
-- [ ] Tarefa 3 - Seleção de personagens + animações
-- [ ] Tarefa 4 - História principal interativa com JavaScript
-- [ ] Tarefa 5 - Criar deploy da versão atual
+- [x] Task 1 - Implement Electron.JS framework for a better game experience
+- [x] Task 2 - Implement Bootstrap framework for better code responsiveness
+- [ ] Task 3 - Character selection + animations
+- [ ] Task 4 - Interactive main story with JavaScript
+- [ ] Task 5 - Deploy the current version
 
-## 💻 Pré-requisitos
+## 💻 Prerequisites
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Before you begin, make sure you meet the following requirements:
 
-- Um navegador moderno com JavaScript habilitado (necessário para as interações e animações)
-- Node.JS instalado (para rodar o jogo na janela do Electron.JS
+- A modern browser with JavaScript enabled (required for interactions and animations)
+- Node.JS installed (to run the game in the Electron.JS window)
 
-## 🤝 Colaboradores
+## 🤝 Collaborators
 
-Projeto independente criado por mim: 
+Independent project created by me: 
 
 www.linkedin.com/in/eng-fabio-teixeira
 
